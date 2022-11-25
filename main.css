@@ -1,0 +1,33 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  background-image: url(https://news.liga.net/images/general/2018/11/04/20181104162119-6725.jpg?v=1541347770);
+  background-size: 100%;
+  color: aliceblue;
+  margin-left: 55%;
+}
+.wrapper {
+  margin: 0 auto;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+.right {
+  background-color: rgba(0, 200, 0, 0.5);
+  border-radius: 5px;
+  padding-left: 5px;
+}
+.wrong {
+  background-color: rgb(255, 44, 55);
+  border-radius: 5px;
+  padding-left: 5px;
+}
+.hidden {
+  display: none;
+}
+#btn1 {
+  background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+}
+.opend {
+  background-color: skyblue;
+}
